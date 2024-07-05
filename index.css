@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #24353f;
+}
+
+.box,.boxUp {
+    background-color: #24353f;
+    box-shadow: 0 0 50px #141e26;
+}
+
+ h1 {
+    font-family: "Titillium Web", sans-serif;
+    color: #17a2b8;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.form-control {  
+    background-color: transparent !important;
+    box-shadow: none !important;
+    color: white;
+
+}
+input {
+    color: white !important ;
+}
+
+
+
+input::placeholder {
+    color: white !important;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+}
+
+.btn {
+    background-color: #24353f !important;
+    border: 1px solid #17a2b8 !important;
+    color: #17a2b8;
+}
+
+.btn:hover {
+    background-color: #17a2b8 !important;
+    color: white !important;
+}
+
+p {
+    font-family: "Titillium Web", sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+a{
+    color: white;
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.successLogIn p {
+    font-family: "Titillium Web", sans-serif;
+
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 28px;
+}

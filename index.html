@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="fontawesome-free-6.5.2-web/fontawesome-free-6.5.2-web/css/all.min.css">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.5.2-web/fontawesome-free-6.5.2-web/webfonts">
+    <!-- <link rel="stylesheet" href="fontawesome-free-6.5.2-web/fontawesome-free-6.5.2-web/css/all.min.css"> -->
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class=" w-50 mx-auto box my-5 p-5 ">
+
+        <h1 class="text-capitalize text-center">smart login system </h1>
+        <label for="emailInput"></label>
+        <input type="text" id="emailInput" placeholder="Enter your email " class="form-control px-3 py-2 w-100 emailInput" >
+        <label for="password"></label>
+        <input type="password" id="password" placeholder="Enter your password" class="form-control px-3 py-2 w-100 mb-4 password " id="password"    >
+        <div class="alert d-none ">
+            <p class="text-center text-danger d">All inputs is required</p>
+        </div>
+
+        <div class="successLogIn d-none">
+            <p class="text-center text-success">Success</p>
+        </div>
+        <button class="btn w-100 text-center p-2 mb-3 login"> Login</button>
+
+        <p class="signUp text-center "> Dont’t have an account?<a href="#" id="signUpAnchor" target="_top" > Sign Up</a></p>
+        
+    </div>
+
+    <div class="signUpPage w-50 boxUp mx-auto p-5 my-5 d-none">
+        <h1 class="text-capitalize text-center">smart login system </h1>
+        <label for="name"></label>
+        <input type="text" id="nameInput" class="form-control w-100 px-3 py-2" placeholder="Enter Your Name">
+        <label for="emailSignUp"></label>
+        <input type="text" name="email" id="emailSignUp" placeholder="Enter your Email" class="form-control w-100 px-3 py-2">
+        <label for="passwordSignUp"></label>
+        <input type="password" name="password" id="passwordSignUp" placeholder="Enter Your password" class="form-control w-100 mb-4 px-3 py-2">
+
+        <div class="alert d-none">
+            <p class="text-center text-danger">All inputs is required</p>
+        </div>
+
+        <div class=" d-none" >
+            <p class="text-center text-success">Success</p>
+        </div>
+
+        <div class="checkEmail d-none ">
+            <p class="text-center text-danger "> email already exists</p>
+        </div>
+
+        <button class="btn w-100 text-center p-2 mb-3 " id="signUpBtn" > Sign Up</button>
+        <p class="signUp text-center "> You have an account?<a href="#" id="signInAnchor" target="_top" > Signin</a></p>
+
+    </div>
+
+
+
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
